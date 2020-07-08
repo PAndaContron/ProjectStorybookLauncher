@@ -108,6 +108,8 @@ public class Main {
 					}
 				}
 			}
+			
+			pm.close();
 		} catch (IOException e) {
 			System.err.println("Download failed");
 			throw new UncheckedIOException(e);
